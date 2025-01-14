@@ -18,6 +18,6 @@
         "resolveJsonModule": true,
         "isolatedModules": true
     },
-    "include": ["./lib/**/*", "./api/vercel.ts"],
+    "include": ["./lib/**/*", "./api/vercel.ts", "ecosystem.config.mjs"],
     "exclude": ["node_modules", "*.test.*"]
 }
